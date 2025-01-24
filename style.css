@@ -4,6 +4,7 @@
 
 .itemrow{
     display: flex;
+    
 }
 
 .menuimg{
@@ -15,12 +16,14 @@
     margin-right: 15px;
     margin-bottom: 25px;
     margin-left: 25px;
+    
 }
 
 .priceandbutton{
     display: flex;
-
+    padding-top: 20px;
 }
+
 
 .addbutton{
     border-radius: 8px;
@@ -28,17 +31,19 @@
     border: none;
     height: 25px;
     width: 50px;
+    margin-left: 20px;
+    
 }
 .price{
     font-weight: 700;
-    flex-grow: 1;
+    flex-grow: .79;
 }
 
 .details{
     padding-bottom: 20px;
+    flex-grow: 1;
+    
 }
-
-
 
 h1 {
     text-align: center;
@@ -55,7 +60,6 @@ h2 {
 
 h3 {
     color: rgb(1, 44, 94);
-    /* text-align: center; */
     font-weight: 700;
 }
 
